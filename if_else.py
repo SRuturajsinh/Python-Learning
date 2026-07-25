@@ -1,5 +1,5 @@
 """this is simple program for if else statement"""
-"""USER WILL ENTER HIS AGE AND PROGRAM WILL CHECK IF HE IS ELIGIBLE TO VOTE OR NOT"""
+"""USER WILL ENTER HIS AGE AND PROGRAM WILL CHECK IF HE IS ELIGIBLE FOR APPLICATION OR NOT"""
 
 name=input("Enter your name: ")
 age=int(input("Enter your age: "))
