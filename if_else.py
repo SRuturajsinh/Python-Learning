@@ -1,4 +1,4 @@
-"""this is simple program for if else statement"""
+"""this is simple program for if else statement with clear concepts"""
 """USER WILL ENTER HIS AGE AND PROGRAM WILL CHECK IF HE IS ELIGIBLE FOR APPLICATION OR NOT"""
 
 name=input("Enter your name: ")
