@@ -13,8 +13,10 @@ if age>=18:
     science=int(input("Enter your marks in Science: "))
     english=int(input("Enter your marks in English: "))
 
-    if maths>100 or science>100 or english>100:
-        print("Please enter valid marks")
+    if (maths < 0 or maths > 100 or
+        science < 0 or science > 100 or
+        english < 0 or english > 100):
+         print("Please enter valid marks between 0 and 100.")
     else:
         total=maths+science+english
         print("Total marks:",total)
