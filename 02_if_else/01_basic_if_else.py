@@ -1,10 +1,6 @@
 """
 This program checks if a person is eligible for a driving license based on their age.
 """
-
-# --- Constants ---
-MIN_DRIVING_AGE = 18
-
 # --- User Input ---
 # Get the user's name and store it in the 'name' variable.
 name = input("Enter your name: ")
@@ -16,8 +12,8 @@ age_input = int(input(f"Hello, {name}. Please enter your age: "))
 # --- Eligibility Check ---
 
 # Check if the user's age is greater than or equal to the minimum driving age.
-if age_input>= MIN_DRIVING_AGE: # The 'if' statement evaluates this condition.
-    # If the condition is True, this block of code runs.
+if age_input>= 18: # The 'if' statement evaluates this condition.
+    # If the condition is True, than code ends here.
     print(f"Congratulations, {name}! You are eligible for a driving license.")
 else:
     # If the condition is False, the 'else' block of code runs instead.
