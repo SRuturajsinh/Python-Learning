@@ -6,21 +6,30 @@ While Loops in Python
 i=1         
 while i<10:
     print(i)
-    i+=1    # OutPut : 1,2,3,4,5,6,7,8,9
+    i+=1    # Output : 1,2,3,4,5,6,7,8,9
 
 # Decrement 
 i=10
 while i>0:
     print(i)
-    i-=1    # OutPut : 10,9,8,7,6,5,4,3,2,1
+    i-=1    # Output : 10,9,8,7,6,5,4,3,2,1
 
 # Break statement 
 i=1
 while i<10:
     if i==5:
-        break # If condition mates than it will stop the loop and not execute next line
+        break # Stops the loop immediately when the condition is met.
     print(i)
-    i+=1    # OutPut : 1,2,3,4
+    i+=1    # Output : 1,2,3,4
+    
+# Continue statement 
+i=1
+while i<10:
+    if i==5:
+        continue # Skips the current iteration and continues with the next iteration.
+        print(i)
+    i+=1    # OutPut : 1,2,3,4,6,7,8,9
+
 
 """
 This is a basic while loop in python. 
