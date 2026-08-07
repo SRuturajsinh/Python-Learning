@@ -1,3 +1,11 @@
+"""
+Number Pattern Printing in Python
+
+This program demonstrates different number patterns
+using nested for loops and nested while loops.
+"""
+# end="" prints the next value on the same line instead of moving to a new line.
+
 
 for i in range(1,6):
     for j in range(1,i+1):
