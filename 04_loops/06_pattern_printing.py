@@ -1,3 +1,10 @@
+"""
+Advanced Number Pattern Printing in Python
+
+This program demonstrates different number patterns
+using nested for loops and nested while loops.
+"""
+
 for i in range(5):
     for j in range(6,i+1,-1):
         print("_",end="")
@@ -17,6 +24,7 @@ while i<=5:
         k+=1
     print()
     i+=1
+    
 # Output
 # _____1
 # ____12
@@ -24,6 +32,7 @@ while i<=5:
 # __1234
 # _12345
 
+#------------------------------------------------
 for i in range(5,0,-1):
     for j in range(i,0,-1):
         print("_",end="")
@@ -43,6 +52,7 @@ while i>0:
         k-=1
     print()
     i-=1
+    
 # Output
 # _____5
 # ____54
@@ -50,6 +60,8 @@ while i>0:
 # __5432
 # _54321
 
+
+#------------------------------------------------
 for i in range(1,6):
     for j in range(i,0,-1):
         print("_",end="")
