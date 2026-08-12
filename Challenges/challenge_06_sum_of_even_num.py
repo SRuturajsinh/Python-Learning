@@ -12,7 +12,7 @@ for i in range(2,num+1,2):
     # This gives only even numbers:
     # 2, 4, 6, 8, ...
     total= i+total
-print(total)
+print(f"Total sum by for loop: {total}")
 
 # Via while loop
 i=2
@@ -21,4 +21,4 @@ while(i<=num):
      # Continue until i becomes greater than num.
     total=i+total
     i=i+2
-print(total)
+print(f"Total sum by while loop: {total}")
