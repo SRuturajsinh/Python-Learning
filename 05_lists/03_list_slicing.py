@@ -7,8 +7,8 @@ list slicing
 [start:stop:step]
 """
 list = ["apple","kiwi","mango","banana","cherry","orange"]
-    #  [   0   ,   1  ,   2   ,   3    ,   4    ,   5    ]
-    #  [  -6   ,  -5  ,  -4   ,  -3    ,  -2    ,  -1    ]
+    #  [   0   ,   1  ,   2   ,   3    ,   4    ,   5    ] Positive indexing
+    #  [  -6   ,  -5  ,  -4   ,  -3    ,  -2    ,  -1    ] Negative indexing
 #==============================
 # [start:stop]
 #==============================
