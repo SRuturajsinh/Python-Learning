@@ -1,4 +1,17 @@
+"""
+Nested Dictionaries
 
+A nested dictionary is a dictionary inside another dictionary.
+
+A dictionary can store another dictionary as its value.
+
+We'll learn:
+
+1. Creating a nested dictionary
+2. Accessing an inner dictionary
+3. Accessing values from an inner dictionary
+4. Changing values inside a nested dictionary
+"""
 student = {
     "student1": {
         "name": "Ruturaj",
