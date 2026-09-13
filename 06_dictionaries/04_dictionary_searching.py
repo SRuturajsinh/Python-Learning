@@ -13,24 +13,21 @@ student = {
 
 
 # Checking if a key exists
-
 print("name" in student)
 print("city" in student)
 
 
 # Checking if a key does NOT exist
-
 print("city" not in student)
 
 
 # Checking if a value exists
-
+# if value exists in any key it will return True
 print("Ruturaj" in student.values())
 print("Java" in student.values())
 
 
 # Using if
-
 if "course" in student:
     print("Course exists")
 
